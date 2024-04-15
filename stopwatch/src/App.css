@@ -1,0 +1,52 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  font-size: 24px;
+  font-family: Arial, sans-serif;
+  border: 1px solid #333;
+}
+
+.display {
+  margin: 20px auto;
+  font-weight: bold;
+  color: #333;
+}
+
+.buttons {
+  margin: 10px auto;
+  text-align: center;
+}
+
+.buttons button {
+  font-size: 18px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  padding: 8px 12px;
+  cursor: pointer;
+  border-radius: 3px;
+  font-family: Arial, sans-serif;
+  margin-right: 8px;
+  border: 1px solid #4caf50; /* Add border */
+  transition: background-color 0.3s ease; /* Add transition for smoother hover effect */
+}
+
+.buttons button:hover {
+  background-color: #45a049; /* Darken button color on hover */
+}
+
+.laps {
+  margin-top: 15px;
+  font-size: 16px;
+  border: 1px solid #ccc; /* Add border */
+  padding: 10px; /* Add padding for better readability */
+  border-radius: 5px; /* Add border radius for rounded corners */
+}
+
+.laps h2 {
+  margin-bottom: 10px; /* Add space below section title */
+}
